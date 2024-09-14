@@ -6,8 +6,8 @@ class PagesControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
-  test "should get project" do
-    get pages_project_url
+  test "should get projects" do
+    get pages_projects_url
     assert_response :success
   end
 
